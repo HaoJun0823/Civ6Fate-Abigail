@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_pre_loc-->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 3:59:56 PM -->
+<GameData>
+	<LocalizedText>
+
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_LEADER_ABIGAIL_NAME" Language="zh_Hans_CN">
+			<Text>阿比盖尔·威廉姆斯</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每7回合会秘密地随机获得7种增益之中的一种，这些增益会随着游戏的进度愈发强大。</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>光壳流溢的虚树</Text>
+		</Row>
+
+		<!-- 領袖名稱 來自Config-->
+		<Row Tag="LOC_LEADER_ABIGAIL_NAME" Language="zh_Hant_HK">
+			<Text>阿比蓋爾·威廉姆斯</Text>
+		</Row>
+
+		<!-- 領袖技能說明 來自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每7回合會秘密地隨機獲得7種增益之中的一種，這些增益會隨著遊戲的進度愈發強大。 </Text>
+		</Row>
+
+		<!-- 領袖技能名稱 來自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME" Language="zh_Hant_HK">
+			<Text>光殼流溢的虛樹</Text>
+		</Row>
+
+	</LocalizedText>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_LEADER_ABIGAIL_NAME">
+			<Text>Abigail Williams</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION">
+			<Text>Every 7 rounds, one of the 7 buffs will be secretly obtained randomly, and these buffs will become stronger as the game progresses.</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME">
+			<Text>Qliphoth Rhizome</Text>
+		</Row>
+
+		<!-- 领袖名称 来自Config-->
+		<Row Tag="LOC_CIVILIZATION_ABIGAIL_NAME">
+			<Text>???-???????</Text>
+		</Row>
+
+		<!-- 领袖技能说明 来自Config-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_DESCRIPTION">
+			<Text>Fahf ah nafl ahf' ymg' ahnythor kadishtu</Text>
+		</Row>
+
+		<!-- 领袖技能名称 来自Config-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME">
+			<Text>■■■■■■■■■■■</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ABIGAIL_NAME">
+			<Text>{LOC_CIVILIZATION_ABIGAIL_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ABIGAIL_DESCRIPTION">
+			<Text>{LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME}</Text>
+		</Row>
+
+
+	</BaseGameText>	
+</GameData>

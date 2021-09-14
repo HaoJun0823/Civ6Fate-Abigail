@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_Civ -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 11:22:32 AM -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_ABIGAIL" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_ABIGAIL" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_ABIGAIL" Name="LOC_CIVILIZATION_ABIGAIL_NAME" Description="LOC_CIVILIZATION_ABIGAIL_DESCRIPTION" Adjective="LOC_CIVILIZATION_ABIGAIL_ADJECTIVE" RandomCityNameDepth="1" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ABIGAIL" LeaderType="LEADER_ABIGAIL" CapitalName="LOC_CIVINFO_CIVILIZATION_ABIGAIL_LOCATION"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ABIGAIL" Name="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME" Description="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ABIGAIL" TraitType="TRAIT_CIVILIZATION_ABIGAIL"/>
+	</CivilizationTraits>
+
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_ABIGAIL" Tier="3"/>
+	</StartBiasRivers>	
+	
+</GameData>

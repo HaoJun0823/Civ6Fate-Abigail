@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_UI_Script_Loc -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 6/25/2021 6:37:15 PM -->
+<GameData>
+	<BaseGameText>
+			<Row Tag="LOC_ABIGAIL_TRAIT_1">
+				<Text>"Countless brilliance descends from the sky, countless thoughts rippling in it, this is full of greed and evil between the virtual and the real."[NEWLINE] (obtained extra golds and faith)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_2">
+				<Text>"The substance on the fingertips uttered a horrible scream, and the whispers in the ears were so hot that they could not be calmed."[NEWLINE] (obtained additional culture and scientific research)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_3">
+				<Text>"Creation is destruction."[NEWLINE] (obtained extra great points)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_4">
+				<Text>"Does everything have cause and effect...?"[NEWLINE] (obtained extra influence and era score)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_5">
+				<Text>"Kill!"[NEWLINE] (obtained additional combat experience points)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_6">
+				<Text>"They are always there, they are always..."[NEWLINE] (Gained additional Governor Points and Diplomatic Points)</Text>
+			</Row>
+			<Row Tag="LOC_ABIGAIL_TRAIT_7">
+				<Text>"Repeated work, effortlessly."[NEWLINE] (Gained additional productivity)</Text>
+			</Row>
+	</BaseGameText>
+	<LocalizedText>
+		<Row Tag="LOC_ABIGAIL_TRAIT_1" Language="zh_Hans_CN">
+			<Text>“无数光辉从天而降，无数思绪荡漾其中，这虚与实之间充斥着贪婪与邪恶。”[NEWLINE](获得了额外的金币与信仰)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_2" Language="zh_Hans_CN">
+			<Text>“指尖的物质发出惨人的尖叫，耳中的低语炙热得让人无法平息。”[NEWLINE](获得了额外的文化与科研)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_3" Language="zh_Hans_CN">
+			<Text>“创造即是毁灭。”[NEWLINE](获得了额外的伟人点数)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_4" Language="zh_Hans_CN">
+			<Text>“万物皆有因果……吗？”[NEWLINE](获得了额外的影响力与时代得分)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_5" Language="zh_Hans_CN">
+			<Text>“杀！”[NEWLINE](获得了额外的战斗经验值)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_6" Language="zh_Hans_CN">
+			<Text>“它们一直都在，一直都在……”[NEWLINE](获得了额外的总督点数与外交点数)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_7" Language="zh_Hans_CN">
+			<Text>“重复劳动，不费吹灰之力。”[NEWLINE](获得了额外的生产力)</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_ABIGAIL_TRAIT_1" Language="zh_Hant_HK">
+			<Text>“無數光輝從天而降，無數思緒蕩漾其中，這虛與實之間充斥著貪婪與邪惡。”[NEWLINE](獲得了額外的金幣與信仰)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_2" Language="zh_Hant_HK">
+			<Text>“指尖的物質發出慘人的尖叫，耳中的低語炙熱得讓人無法平息。”[NEWLINE](獲得了額外的文化與科研)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_3" Language="zh_Hant_HK">
+			<Text>“創造即是毀滅。”[NEWLINE](獲得了額外的偉人點數)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_4" Language="zh_Hant_HK">
+			<Text>“萬物皆有因果……嗎？”[NEWLINE](獲得了額外的影響力與時代得分)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_5" Language="zh_Hant_HK">
+			<Text>“殺！”[NEWLINE](获得了额外的战斗经验值)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_6" Language="zh_Hant_HK">
+			<Text>“它們一直都在，一直都在……”[NEWLINE](獲得了額外的總督點數與外交點數)</Text>
+		</Row>
+		<Row Tag="LOC_ABIGAIL_TRAIT_7" Language="zh_Hant_HK">
+			<Text>“重複勞動，不費吹灰之力。”[NEWLINE](獲得了額外的生產力)</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

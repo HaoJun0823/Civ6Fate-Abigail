@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITexture"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_256"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_32"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_45"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_48"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_50"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_55"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_64"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_80"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ABIGAIL_NORMAL"/>
+			<m_ObjectName text="LEADER_ABIGAIL_NORMAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_128"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_200"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_22"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_256"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_30"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_32"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_36"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_44"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_48"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_50"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_64"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ABIGAIL_CIV_80"/>
+			<m_ObjectName text="ICON_LEADER_ABIGAIL_CIV_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ABIGAIL_WALLPAPER"/>
+			<m_ObjectName text="Salem_map"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_128"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_200"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_22"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_256"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_30"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_32"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_36"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_44"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_48"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_50"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_64"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_ABIGAIL_80"/>
+			<m_ObjectName text="ICON_CIV_ABIGAIL_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

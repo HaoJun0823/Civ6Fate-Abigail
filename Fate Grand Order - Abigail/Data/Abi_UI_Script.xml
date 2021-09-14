@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_UI_Script -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 6/25/2021 7:16:19 PM -->
+<Context Name="AbiPopupDialog">
+	<Include File="PopupDialog" />
+	<MakeInstance Name="PopupDialog" />\
+</Context>

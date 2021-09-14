@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_Leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 11:22:20 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_ABIGAIL" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_ABIGAIL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_ABIGAIL" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_ABIGAIL" Name="LOC_LEADER_ABIGAIL_NAME" InheritFrom="LEADER_DEFAULT" Sex="Female"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ABIGAIL" Quote="LOC_LEADER_ABIGAIL_DESCRIPTION"/>
+	</LeaderQuotes>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_ABIGAIL" Name="LOC_AGENDA_ABIGAIL_NAME" Description="LOC_AGENDA_ABIGAIL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ABIGAIL" Name="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME" Description="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ABIGAIL" TraitType="TRAIT_LEADER_ABIGAIL"/>
+	</LeaderTraits>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_ABIGAIL" Name="LOC_AGENDA_ABIGAIL_NAME" Description="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_QUOTE"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ABIGAIL" AgendaType="AGENDA_ABIGAIL"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_ABIGAIL" TraitType="TRAIT_AGENDA_ABIGAIL"/>
+	</AgendaTraits>
+
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_ABIGAIL" ModifierId="AGENDA_NICE_ABIGAIL"/>
+		<Row TraitType="TRAIT_AGENDA_ABIGAIL" ModifierId="AGENDA_EVIL_ABIGAIL"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_ABIGAIL_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_NICE_ABIGAIL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_ABIGAIL_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_EVIL_ABIGAIL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME</Value>
+		</Row>		
+		
+	</ModifierArguments>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ABIGAIL" ForegroundImage="LEADER_ABIGAIL_NORMAL"  LeaderText="LOC_LOADING_INFO_LEADER_ABIGAIL"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ABIGAIL" BackgroundImage="LEADER_ABIGAIL_WALLPAPER"/>
+	</DiplomacyInfo>
+</GameData>

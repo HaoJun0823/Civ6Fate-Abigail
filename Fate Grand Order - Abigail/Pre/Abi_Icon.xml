@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_Icon -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 11:22:44 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_256.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_80.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_64.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_55.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_50.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_48.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_45.dds"/>
+		<Row Name="ATLAS_LEADER_ABIGAIL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_32.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_ABIGAIL" Atlas="ATLAS_LEADER_ABIGAIL" index="0"/>
+	</IconDefinitions>
+
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_256.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_200.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_128.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_80.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_64.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_50.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_48.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_44.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_36.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_32.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_30.dds"/>
+		<Row Name="ATLAS_CIVILIZATION_ABIGAIL_CIV" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_ABIGAIL_CIV_22.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL_CIV" Atlas="ATLAS_CIVILIZATION_ABIGAIL_CIV" index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_256.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_200.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_128.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_80.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_64.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_50.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_48.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_44.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_36.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_32.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_30.dds"/>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_ABIGAIL_22.dds"/>
+	</IconTextureAtlases>
+
+
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_ABIGAIL" Atlas="ICON_CIVILIZATION_ABIGAIL" index="0"/>
+	</IconDefinitions>
+
+
+
+</GameData>

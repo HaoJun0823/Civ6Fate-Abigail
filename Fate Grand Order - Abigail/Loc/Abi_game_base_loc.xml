@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_game_base_loc -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 4:56:27 PM -->
+<GameData>
+
+	<BaseGameText>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ABIGAIL_CHAPTER_HISTORY_PARA_1">
+			<Text>Mg way l' kadishtu</Text>
+		</Row>
+
+		<!-- 领袖信息开始 这段不需要可以删掉-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ABIGAIL">
+			<!-- 领袖信息: 加载界面词汇 -->
+			<Text>
+				Mggoka'ai ya! uh'eog ot ph'nilgh'ri soth! planetmover! foundation ot fastness! uh'eog ot earthquakes! vanquisher ot lloigshogg! uaaahnyth ot panic! destroyer! ahmgn'ghft victor! gnaiigof'n ot chaos ng soth! nnnogor ot shogg! r'luhhor ot outermost n'ghft! uh'eog ot dimensions! riddle-knower! nnnogor ot r'luhh! uh'eog ot labyrinth! uh'eog ot angles! r'luhhor ot whiporwills! omegapoint! uh'eog ot shuggnglui! opener ot way! mgepogog! all-in-one! ehye llll lw'nafh prolonged! umr at-tawil! iak-sathath! yog sothoth nafl'fthagn!!! ymg' nyth'drn l' uln ymg'!
+			</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- 领袖外交信息: 当你对这个AI宣战？ -->
+			<Text>Ymg' ephainafl zhro vulgtmnah</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- 领袖外交信息: 当这个AI向你宣战？ -->
+			<Text>Mgah'ehye ya punish ymg'</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- 领袖外交信息: 当AI被其他AI击败会说这些话？ -->
+			<Text>Y' ahor't mgah geb</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- 领袖外交信息: 当你击败AI他会说这些话？-->
+			<Text>Ahh. Y' ephaifail. Gnaiih</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ABIGAIL_ANY" >
+			<!-- 领袖外交信息: AI拒绝你和平的请求-->
+			<Text>Ymg' ahorna escape hup shogg</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_TITLE" >
+			<!-- 领袖百科信息: 名字-->
+			<Text>{LOC_LEADER_ABIGAIL_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_SUBTITLE" >
+			<!-- 领袖百科信息: 描述-->
+			<Text>{LOC_CIVILIZATION_ABIGAIL_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_QUOTE" >
+			<!-- 领袖百科信息: 一段有语音的词，单独被展示出来-->
+			<Text>Y’bthnk……h’ehye……n’grkdl’lh……</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_CHAPTER_HISTORY_PARA_1" >
+			<!-- 领袖百科信息: 历史1段，还可以有2,3？-->
+			<Text>{LOC_LOADING_INFO_LEADER_ABIGAIL}</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_CHAPTER_CAPSULE_BODY" >
+			<!-- 领袖百科信息:描述你怎么解决这个领袖-->
+			<Text>Y' ymg' ah fhtagnshogg</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ABIGAIL_CHAPTER_DETAILED_BODY" >
+			<!-- 领袖百科信息: 描述你该怎么玩这个领袖-->
+			<Text>Ahmggoka ya orr'eog</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_SIZE" >
+			<!-- 文明信息: 所属地点的大小-->
+			<Text>■■■■</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_POPULATION" >
+			<!-- 文明信息: 所属地点的人口-->
+			<Text>■■■■</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_CAPITAL" >
+			<!-- 文明信息: 所属地点的首都-->
+			<Text>■■■■</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ABIGAIL_ANY">
+			<!-- 领袖外交信息: AI他提出一个交易？-->
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ABIGAIL_ANY">
+			<!-- 领袖外交信息: AI他拒绝你的一个交易？-->
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY}</Text>
+		</Row>		
+
+	</BaseGameText>
+
+	<BaseGameText>
+
+
+		<Row Tag="LOC_CIVILIZATION_ABIGAIL_DESCRIPTION" >
+			<!-- Civilization information: load the name of the civilization in the header of the interface -->
+			<Text>Salem Heresy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABIGAIL_ADJECTIVE" >
+			<!-- Civilization information: used to describe the masses, such as England Chinese, etc. -->
+			<Text>The Heresy of Salem</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_LOCATION" >
+			<!-- Civilization Information: Location-->
+			<Text>Salem</Text>
+		</Row>
+
+
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you announce friendship to AI is allowed -->
+			<Text>It's great! Everyone is a good friend~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's Diplomatic Message: When you announce to AI that your friendship is rejected -->
+			<Text>Um...hmm...no! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When AI announces friendship to you -->
+			<Text>Do you want to be my friend? </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you agree with AI's announcement of friendship to you -->
+			<Text>Good! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you reject AI's announcement of friendship to you -->
+			<Text>Um...not so good now...</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader diplomatic message: When AI agrees with your delegation-->
+			<Text>A new friend? Welcome~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When AI rejects your delegation-->
+			<Text>I can’t come to play these days, I need to clean up...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<Text>Would you like the chocolate and refreshments I made? </Text>
+			<!-- Leader's diplomatic message: When AI sends a delegation -->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you publicly accuse AI-->
+			<Text>Woo...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When AI publicly accuses you-->
+			<Text>Wow! hate! [NEWLINE] (condemns you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you first meet AI-->
+			<Text>Huh? It's a foreigner! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you first met an AI and he had a good impression of you? -->
+			<Text>Eh... it's a stranger, welcome! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: When you first met AI and he was more active? -->
+			<Text>Welcome to you! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: For general greetings-->
+			<Text>Good morning~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI has increased the predecessor of your favor -->
+			<Text>Everyone is getting happier~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ABIGAIL_REASON_ANY" >
+			<!-- Leader's diplomatic message: AI's added description of your goodwill-->
+			<Text>(Abigail’s favor with you has increased)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's Diplomatic Message: AI's predecessor of reducing your favorability -->
+			<Text>How could this be...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ABIGAIL_REASON_ANY" >
+			<!-- Leader's Diplomatic Message: Description of AI's reduced favorability for you -->
+			<Text>(Abigail’s favor with you has decreased)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI allows you to ally-->
+			<Text>Shall we cheer together? </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI promises your request for peace-->
+			<Text>Not this time! </Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI takes the initiative to make a request for peace-->
+			<Text>Huh? What happened before? Uh...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI promises you to pass his territory-->
+			<Text>Of course you can! </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI refuses you to pass his territory-->
+			<Text>Not at this time. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI asks if you are willing to let his troops pass through your territory -->
+			<Text>Can I walk past you? </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ABIGAIL_ANY" >
+			<!-- Leader's diplomatic message: AI says your army is bad-->
+			<Text>Hey...</Text>
+		</Row>		
+		
+	</BaseGameText>
+
+</GameData>

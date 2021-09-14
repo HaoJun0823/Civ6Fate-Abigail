@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Abi_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 3/27/2021 11:22:59 AM -->
+<GameData>
+	<Players>
+		<!--
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ABIGAIL_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ABIGAIL_CIV" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ABIGAIL_NAME" CivilizationIcon="ICON_CIVILIZATION_ABIGAIL" CivilizationName="LOC_CIVILIZATION_ABIGAIL_NAME" CivilizationType="CIVILIZATION_ABIGAIL" LeaderAbilityDescription="LOC_TRAIT_LEADER_ABIGAIL_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ABIGAIL" LeaderAbilityName="LOC_TRAIT_LEADER_ABIGAIL_NAME" LeaderIcon="ICON_LEADER_ABIGAIL" LeaderName="LOC_LEADER_ABIGAIL_NAME" LeaderType="LEADER_ABIGAIL" Portrait="LEADER_ABIGAIL_NORMAL"  PortraitBackground="LEADER_ABIGAIL_WALLPAPER"/>
+		-->
+		<!-- Expansion 1 Support -->
+		<!--
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ABIGAIL_CIV" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME" CivilizationIcon="ICON_CIVILIZATION_ABIGAIL" CivilizationName="LOC_CIVILIZATION_ABIGAIL_NAME" CivilizationType="CIVILIZATION_ABIGAIL" LeaderAbilityDescription="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ABIGAIL" LeaderAbilityName="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME" LeaderIcon="ICON_LEADER_ABIGAIL" LeaderName="LOC_LEADER_ABIGAIL_NAME" LeaderType="LEADER_ABIGAIL" Portrait="LEADER_ABIGAIL_NORMAL" Domain="Players:Expansion1_Players"  PortraitBackground="LEADER_ABIGAIL_WALLPAPER"/>
+		-->
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_ABIGAIL_CIV" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ABILITY_ABIGAIL_NAME" CivilizationIcon="ICON_CIVILIZATION_ABIGAIL" CivilizationName="LOC_CIVILIZATION_ABIGAIL_NAME" CivilizationType="CIVILIZATION_ABIGAIL" LeaderAbilityDescription="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ABIGAIL" LeaderAbilityName="LOC_TRAIT_LEADER_ABIGAIL_ABILITY_NAME" LeaderIcon="ICON_LEADER_ABIGAIL" LeaderName="LOC_LEADER_ABIGAIL_NAME" LeaderType="LEADER_ABIGAIL" Portrait="LEADER_ABIGAIL_NORMAL" Domain="Players:Expansion2_Players"  PortraitBackground="LEADER_ABIGAIL_WALLPAPER"/>
+	</Players>
+</GameData>

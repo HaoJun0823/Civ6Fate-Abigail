@@ -1,0 +1,361 @@
+<!-- 文明6 InGame 领袖-文明语言模板 -->
+<!-- 作者：兰德里奥（HaoJun0823） -->
+<!-- https://steamcommunity.com/id/HaoJun0823 -->
+<!-- 模板创建时间：2018年12月30日 版本号：2-->
+<!-- 默认数据为：Fate 秦始皇和 Fate 查理曼-->
+<!-- 可转载，修改，分享，不可去除以上信息 -->
+
+<!-- 麻烦填写以下信息用于标记 -->
+
+<!-- 内容： -->
+<!-- 作者： -->
+<!-- 日期： -->
+<!-- 描述： -->
+
+<!--   从 <LocalizedText> 到 </LocalizedText> 复制一个到末尾然后再把 Language里面的内容批量修改成别的就是另一种语言的内容了 -->
+<!--   繁体直接转换： http://www.aies.cn/ -->
+<!--   英文可查询： https://translate.google.cn/ -->
+
+<!--
+rowid	Locale	Name	Collator	PluralRule	SupportsSmallCaps
+1		en_US	English		2	True
+2		fr_FR	Français		3	True
+3		de_DE	Deutsch		2	True
+4		it_IT	Italiano		2	True
+5		es_ES	Español		2	True
+6		ja_JP	日本語 (Japanese)		1	False
+7		ru_RU	Русский (Russian)		8	True
+8		pl_PL	polski		10	True
+9		ko_KR	한국어/조선말 (Korean)		1	False
+10		zh_Hant_HK	汉语/漢語 (Traditional Chinese)		1	False
+11		zh_Hans_CN	汉语/漢語 (Simplified Chinese)		1	False
+12		pt_BR	Português do Brasil		3	True
+-->
+
+<!-- Locale中的内容替换到Language里就是该语言的文本信息 -->
+
+<!-- 简体中文 -->
+<GameData>
+<LocalizedText>
+
+	<!-- 文明信息开始 这段不需要可以删掉-->
+
+	<Row Tag="LOC_CIVILIZATION_ABIGAIL_DESCRIPTION" Language="zh_Hans_CN">
+		<!-- 文明信息：载入界面头部的文明名称 -->
+		<Text>异端的塞勒姆</Text>
+	</Row>
+	<Row Tag="LOC_CIVILIZATION_ABIGAIL_ADJECTIVE" Language="zh_Hans_CN">
+		<!-- 文明信息：用于描述群众 例如 England Chinese 等 -->
+		<Text>塞勒姆的异端</Text>
+	</Row>
+
+
+
+	<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_LOCATION" Language="zh_Hans_CN">
+		<!-- 文明信息: 所属地点-->
+		<Text>塞勒姆</Text>
+	</Row>
+
+
+
+
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+		<Text>太好了！大家都是好朋友~</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+		<Text>唔……嗯……不行！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+		<Text>要做我的朋友吗？</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+		<Text>好耶！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+		<Text>嗯……现在不太好……</Text>
+	</Row>
+
+
+	<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当AI同意你的代表团-->
+		<Text>是新的朋友吗？欢迎~</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+		<Text>这几天不能来玩哦，要打扫卫生呢……</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<Text>尝尝我做的巧克力和茶点吗？</Text>
+		<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+	</Row>
+
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你公开指责AI-->
+		<Text>呜……</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当AI公开指责你-->
+		<Text>哇！讨厌！[NEWLINE]（谴责你）</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你第一次遇到AI-->
+		<Text>嗯？是外乡人！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？-->
+		<Text>诶……是陌生人，欢迎！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 当你第一次遇到AI并且他比较积极的时候？-->
+		<Text>欢迎你！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_GREETING_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: 一般打招呼用-->
+		<Text>早安~</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI对你的好感增加了的前置-->
+		<Text>大家越来越开心了呢~</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_KUDO_LEADER_ABIGAIL_REASON_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI对你的好感增加了的描述-->
+		<Text>（阿比盖尔对您的好感增加了）</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI对你的好感减少了的前置-->
+		<Text>怎么会这样……</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_WARNING_LEADER_ABIGAIL_REASON_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI对你的好感减少了的描述-->
+		<Text>（阿比盖尔对您的好感减少了）</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI允许你同盟-->
+		<Text>我们一起加油吧？</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI答应你和平的请求-->
+		<Text>这次不行！</Text>
+	</Row>
+
+
+
+	<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI主动提出和平的请求-->
+		<Text>嗯？之前发生了什么？呜……</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI答应你通过他的领地-->
+		<Text>当然可以啦！</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+		<Text>这个时候不可以哦。</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+		<Text>我可不可以从你那边走过去啊？</Text>
+	</Row>
+
+	<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ABIGAIL_ANY" Language="zh_Hans_CN">
+		<!-- 领袖外交信息: AI说你军队差劲-->
+		<Text>哎……</Text>
+	</Row>
+
+
+
+
+	<!-- 领袖信息结束-->
+
+
+</LocalizedText>
+<!-- 简体中文结束 -->
+<!-- 写完了吗？麻烦复制一下写英文和繁体中文的吧 -->
+<!--   从 简体中文的<LocalizedText> 到 </LocalizedText> 复制一个到末尾然后再把 Language里面的内容批量修改成别的就是另一种语言的内容了 -->
+<!--   繁体直接转换： http://www.aies.cn/ -->
+<!--   英文可查询： https://translate.google.cn/ -->
+
+
+
+
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_ABIGAIL_DESCRIPTION" Language="zh_Hant_HK">
+			<!-- 文明信息：載入界面頭部的文明名稱 -->
+			<Text>異端的塞勒姆</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABIGAIL_ADJECTIVE" Language="zh_Hant_HK">
+			<!-- 文明信息：用於描述群眾 例如 England Chinese 等 -->
+			<Text>塞勒姆的異端</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_CIVINFO_CIVILIZATION_ABIGAIL_LOCATION" Language="zh_Hant_HK">
+			<!-- 文明信息: 所屬地點-->
+			<Text>塞勒姆</Text>
+		</Row>
+
+
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 你對AI宣布友誼允許的時候 -->
+			<Text>太好了！大家都是好朋友~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 你對AI宣布友誼被拒絕的時候 -->
+			<Text>唔……嗯……不行！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當AI對你宣布友誼的時候 -->
+			<Text>要做我的朋友嗎？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你同意AI對你的宣布友誼 -->
+			<Text>好耶！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你拒絕AI對你的宣布友誼 -->
+			<Text>嗯……現在不太好……</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當AI同意你的代表團-->
+			<Text>是新的朋友嗎？歡迎~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當AI拒絕你的代表團-->
+			<Text>這幾天不能來玩哦，要打掃衛生呢……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<Text>嚐嚐我做的巧克力和茶點嗎？ </Text>
+			<!-- 領袖外交信息: 當AI派遣代表團的時候-->
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你公開指責AI-->
+			<Text>嗚……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當AI公開指責你-->
+			<Text>哇！討厭！ [NEWLINE]（譴責你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你第一次遇到AI-->
+			<Text>嗯？是外鄉人！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你第一次遇到AI並且他對你有好感的時候？ -->
+			<Text>誒……是陌生人，歡迎！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 當你第一次遇到AI並且他比較積極的時候？ -->
+			<Text>歡迎你！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: 一般打招呼用-->
+			<Text>早安~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI對你的好感增加了的前置-->
+			<Text>大家越來越開心了呢~</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ABIGAIL_REASON_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI對你的好感增加了的描述-->
+			<Text>（阿比蓋爾對您的好感增加了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI對你的好感減少了的前置-->
+			<Text>怎麼會這樣……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ABIGAIL_REASON_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI對你的好感減少了的描述-->
+			<Text>（阿比蓋爾對您的好感減少了）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI允許你同盟-->
+			<Text>我們一起加油吧？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI答應你和平的請求-->
+			<Text>這次不行！ </Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI主動提出和平的請求-->
+			<Text>嗯？之前發生了什麼？嗚……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI答應你通過他的領地-->
+			<Text>當然可以啦！ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI拒絕你通過他的領地-->
+			<Text>這個時候不可以哦。 </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI詢問你是否願意讓他的部隊通過你的領地-->
+			<Text>我可不可以從你那邊走過去啊？ </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ABIGAIL_ANY" Language="zh_Hant_HK">
+			<!-- 領袖外交信息: AI說你軍隊差勁-->
+			<Text>哎……</Text>
+		</Row>
+
+	</LocalizedText>
+	
+	
+	
+	
+</GameData>

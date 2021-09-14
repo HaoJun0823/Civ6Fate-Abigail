@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fate Grand Order - Abigail Williams</Name>
+    <Guid>aa5566cf-1a06-49d1-9bb2-61772747bcea</Guid>
+    <ProjectGuid>4262e00f-16ac-4763-af76-ecb520a46ed7</ProjectGuid>
+    <ModVersion>6</ModVersion>
+    <Teaser>Fate Grand Order - Abigail Williams</Teaser>
+    <Description>Y’bthnk……h’ehye……n’grkdl’lh……</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Fate Grand Order - Abigail</AssemblyName>
+    <RootNamespace>Fate Grand Order - Abigail</RootNamespace>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_ABIGAIL,Players:Expansion1_Players::LEADER_ABIGAIL,Players:Expansion2_Players::LEADER_ABIGAIL</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_ABIGAIL</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_ABIGAIL</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="FGOABI_CONFIG"><File>Pre/Abi_Config.xml</File></UpdateDatabase><UpdateIcons id="FGOABI_ICON"><File>Pre/Abi_Icon.xml</File></UpdateIcons><UpdateText id="FGOABI_LOC"><File>Loc/Abi_pre_loc.xml</File></UpdateText><UpdateColors id="FGOABI_COLORS"><File>Pre/Abi_Colors.xml</File></UpdateColors><UpdateArt id="FGOABI_ART"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="FGOABI_DATA"><File>Data/Abi_Civ.xml</File><File>Data/Abi_Leader.xml</File></UpdateDatabase><UpdateArt id="FGOABI_ART"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="FGOABI_ICON"><File>Pre/Abi_Icon.xml</File></UpdateIcons><UpdateColors id="FGOABI_COLOR"><File>Pre/Abi_Colors.xml</File></UpdateColors><UpdateText id="FGOABI_TEXT"><File>Loc/Abi_pre_loc.xml</File><File>Loc/Abi_game_loc.xml</File><File>Loc/Abi_game_base_loc.xml</File><File>Loc/Abi_UI_Script_Loc.xml</File></UpdateText><AddGameplayScripts id="FGOABI_LUA"><File>Data/Abi_Script.lua</File></AddGameplayScripts><AddUserInterfaces id="FGOABI_UI"><Properties><Context>InGame</Context></Properties><File>Data/Abi_UI_Script.xml</File></AddUserInterfaces><ImportFiles id="FGOABI_FILE"><File>Data/Abi_UI_Script.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fate Grand Order - Abigail.art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Loc" />
+    <Folder Include="Pre" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Abi_Civ.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Abi_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Abi_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Abi_UI_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Abi_UI_Script.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\Abi_game_base_loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\Abi_game_loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\Abi_pre_loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Loc\Abi_UI_Script_Loc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pre\Abi_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pre\Abi_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pre\Abi_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
